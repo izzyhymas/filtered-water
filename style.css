@@ -1,0 +1,52 @@
+body {
+    background: linear-gradient(25deg, #5585b5 40%, transparent 41%, transparent 59%, #5585b5 60%)  
+    ,linear-gradient(90deg, transparent 45%, #bbe4e9 45%, #bbe4e9 55%, transparent 55%, transparent 20%, #bbe4e9 20%, #bbe4e9 30%,transparent 30%) 
+    ,linear-gradient(90deg, #bbe4e9 9%, transparent 10%);
+    background-size: 3em 3em;
+    background-color: #5585b5;
+    opacity: 1;
+    color: #bbe4e9;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    background: #53a8b6;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 50px auto;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+header {
+    margin-top: 20px 0;
+}
+
+section {
+    margin-top: 20px;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    background-color: #79c2d0;
+    text-align: center;
+    color: #bbe4e9;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: #53a8b6;
+}
